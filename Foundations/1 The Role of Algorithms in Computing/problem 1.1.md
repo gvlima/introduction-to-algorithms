@@ -2,11 +2,11 @@
 For each function f .n/ and time t in the following table, determine the largest size n of a problem that can be solved in time t, assuming that the algorithm to solve the problem takes f .n/ microseconds.
 
 
-- $ f(x) = \log_{2} $
+- $f(n) = \log_{2} n$
 igualamos a função ao tempo total $t$ convertido em microsegundos
 $\log_{2} n = t$
 
-$2^\log_{2} n = 2^t$
+$2^{\log_{2} n} = 2^t$
 
 $n = 2^t$
 
